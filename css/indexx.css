@@ -1,0 +1,183 @@
+@-webkit-keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+
+}
+
+body{
+	background-image: url("por.jpg");
+	background-color: black;
+	background-size: cover;
+}
+
+.menu{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	list-style: none;
+	background: rgb(4,4,4);
+    background: linear-gradient(90deg, rgba(4,4,4,1) 0%, rgba(4,4,4,1) 0%, rgba(209,39,39,1) 84%);
+    border-radius: 0px 200px 200px 0px;
+-moz-border-radius: 0px 200px 200px 0px;
+-webkit-border-radius: 0px 200px 200px 0px;
+border: 11px dotted #000000;
+    }	
+.submenu{
+	position: absolute;
+	display: none;
+	
+	font-family: 'Open Sans', sans-serif;
+	padding: 14px 16px;
+	background-color: black;
+	color: white;
+	text-align: center;
+
+
+}
+.menuu:hover{
+	animation-name: bounce;
+	animation-duration: .4s;
+
+}
+.menu:hover{
+	animation-name: bounce;
+	animation-duration: .4s;
+}
+
+ul.menu li:hover .submenu{
+	display: block;
+
+
+	}
+
+a:link,a:visited,a:hover,a:active{
+color: white;
+  }
+
+
+h1{
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	color: rgb(192, 13, 30);
+	background-color: black;
+	border-radius: 35px 115px 115px 35px;
+-moz-border-radius: 35px 115px 115px 35px;
+-webkit-border-radius: 35px 115px 115px 35px;
+border: 11px none #000000;
+}
+
+table{
+	background-color: black;
+}
+ol li{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 15px;
+	
+
+}
+
+.foto{
+	float: right;
+	display: inline-block;
+	padding-top: 19px;
+}
+
+.contacto{
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+	font-family: 'Encode Sans Semi Expanded', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+	background: rgb(133,66,61);
+background: radial-gradient(circle, rgba(133,66,61,1) 0%, rgba(108,16,4,0.9192051820728291) 35%, rgba(8,8,8,1) 100%);
+}
+
+.article{
+	overflow: auto;
+}
+.simonfoto{
+	float: right;
+}
+.simontxt{
+float: left;
+width: 70%;
+}
+.imagen{
+	float: left;
+	transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+}
+
+
+
+
+.imagen:hover{
+	transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-moz-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-o-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-ms-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+}
+
+
+p{
+	font-family: 'Encode Sans Semi Expanded', sans-serif;
+	color: white;
+	font-size: 12;
+	padding-left: 200px;
+    padding-bottom: 20px;
+    float: initial;
+    background: rgb(133,66,61);
+background: radial-gradient(circle, rgba(133,66,61,1) 0%, rgba(108,16,4,0.9192051820728291) 35%, rgba(8,8,8,1) 100%);
+}
+
+
+
+
+

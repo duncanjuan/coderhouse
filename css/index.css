@@ -1,0 +1,130 @@
+
+body{
+	background: black;
+	display: inline-block;
+}
+header{
+	background-image: url("imagenes/logobanner.jpg");
+	text-align: center;
+	padding: 18px;
+
+}
+h1{
+   background-image: url("imagenes/logobanner.jpg");
+   font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+
+.titulo{
+	color: rgb(192, 13, 30);
+	font-size: 60px;
+	font-family: 'Encode Sans Semi Expanded', sans-serif;
+	font-weight: bold;
+	text-align: right;
+}
+.contacto{
+	color: red;
+	font-family: 'Encode Sans Semi Expanded', sans-serif;
+	font-size: 38px;
+}
+p{
+	color: yellow;
+	font-size: :15px;
+	font-family: 'Encode Sans Semi Expanded', sans-serif;,
+
+
+}
+
+.lista{
+	color: yellow
+	font-family: 'Encode Sans Semi Expanded', sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+
+}
+.a{
+	color: yellow
+	font-family: 'Encode Sans Semi Expanded', sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+
+.menu{
+	position: relative;
+}	
+.submenu{
+	position: absolute;
+	display: none;
+	
+	font-style: 'Open Sans', sans-serif;
+	padding: 14px 16px;
+	background-color: black;
+	color: white;
+	text-align: center;
+
+}
+
+ul.menu li:hover .submenu{
+	display: block;
+	}
+
+ul li{
+	color: white;
+	font-size: 18px;
+	font-family: 'Encode Sans Semi Expanded', sans-serif;
+	font-weight: italic;
+	text-align: center;
+	list-style:none;
+}
+
+
+
+ol li{
+	color: white;
+	font-size: 12px
+	font-family:'Encode Sans Semi Expanded', sans-serif;
+	text-align: center;
+	float: center;
+
+
+}
+.subtitulo{
+	color: red;
+	font-size: 40px;
+	font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+.label{
+	float: right;
+}
+
+h2{
+	font-family: 'Encode Sans Semi Expanded', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+#imagen{
+	transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+}
+
+imagen:hover{
+	transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-moz-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-o-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-ms-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+
+}

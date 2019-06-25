@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contacto</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/indexx.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <aside>
+            <ul class="menu">
+                <li><a href="Index.html">Index</a></li>
+                <li><a href="Discografia.html">Discografia</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li>About
+                    <ul class="submenu">
+                        <li> <a href="Miembros.html">Miembros</a></li>
+                        <li>Historia</li>
+                
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+    
+    <div>
+    <img src="imagenes/logo.png" alt="logo" />
+    </div>
+    <div>
+     <h1>Contacto</h1>   
+
+    </div>
+    </header>
+    <article class="contacto">
+
+<div class="nombre">
+    <label class="forma" for="nombre_apellido">
+        <p> Nombre y apellido:</p>
+    </label>
+
+    <input type="text" name="nombre_apellido" />
+</div>    
+<div class="mail">    
+    <label for="mail">
+        <p>Mail:</p>
+    </label>
+    <input type="mail" name="mail" />
+    <input type="submit" value="Enviar formulario" />
+</div>    
+    <div class="genero">
+        <p>Genero:</p>
+        <select name="Genero">
+            <option value="F">Femenino</option>
+            <option value="M">Masculino</option>
+            <option value="O">Otro</option>
+        </select>
+
+    </div>
+    <div class="novedades">
+        <p>Quiero recibir novedades en mi correo electronico</p>
+    </div>
+    <label for="si">
+        <p>Si:</p>
+    </label>
+    <input type="checkbox" name="acepta" value="1" />
+    <div>
+        <input type="reset" value="Limpiar formulario" />
+    </div>
+</article>
+</body>
+
+</html>
